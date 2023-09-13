@@ -1,0 +1,188 @@
+---------------------------------------    ---javascript--------------------------------------------
+
+------------------------------------introduction           --------------------------
+-> javascript is scripting language.It was called scripting language before 2010.but after        javascript programming language.
+->  what is programming language
+   any language which takes some input and process the input and based on descsion generate the output
+
+  -> what is the purpuse of javascript
+     html and css create static user interface
+     and
+    1. javascript  create daynamic user interface 
+    2.it used to do client side validation
+    3. it used to interigate front end application 
+-> what kind of application we can devloped by using javascript
+  1) we can devloped the web apllication by using js
+      we can devloped fornt end and backend application
+       we can devlope mobile app also by using javascript.
+ --------------------------------------------------------------------lecture 2---------------------------------------------------------------
+  what is the programm
+  It is set of  instruction to perform some  action
+  
+   what is  the process
+   - process is the running state of programm     
+
+install 2 software for javascrip
+visual studio code(vs)
+NODE JS -- jaavscript is run time enviornment(jre)
+We can run our javacript code on node js and browser
+
+* variable in javascript 
+* variable are the references which point to memory location not to store the data and memory location have data
+
+why do we  required the variable?
+variable are the required to store the data in memory while executing the programm, so that we can utilise the data to do some action or after excuting the programm  we might required to store some output 
+
+how to create the variable
+there are three scope js var, let, const
+the syntex to create the java script
+<scope statement><variablename>;
+var city;
+let city; 
+this called varable decleration.
+
+variable intilization
+what is the difference between variable intilization and variable declaration
+
+there are 8 type of datatype
+  1 permitive datatype
+    7 come under the permitive datatype
+        Number
+        String
+        boolean
+        undefined
+        null
+        BigInt
+        Symbole
+Symbole datatype is one type of counstructor
+any data which created the inside the symbole() its called symbole datatype
+
+note all permitive datatype are immutable(We can not change)
+
+        	  
+   2 NON permitibe datatype
+     1 under the non permitive datattype(WE can modifiy the data)
+        object 
+     To any variable assign object or array it s called object type
+  
+Array is not a datatype
+----------------------------------------------------------------------lecture 3--------------------------------------------------------------
+by using below operator we can use the identify the datatype
+ typeof
+
+String type data like " ",'',``
+
+IN javascript null value is considerd object primitive datattype
+any value which is  grater then 2 power 53-1 this value comes under big int and less the value in number type 
+
+------------------------------------------------------------------lecture 4------------------------------------------------------
+
+function statement 
+
+function functioName()
+{
+
+
+}
+
+we can write annynems function like below assign the name
+  
+var name =function(){
+                      console.log("sachin");
+                     }
+name();
+
+
+
+function without name it's called annonamyes function
+
+function  getName(function(){})
+
+as argument we can pass the String,boolean,
+
+Any function are passing inside the argument it s called callback function 
+
+any functin which are taking another  function AS argumnet it called high order function only if it takes minuimum one argument as a function 
+
+note return is last statment of the function if we write any statement after return it will note
+
+
+-------------------------------------------------lecture 5 ---------------------------------------------------------------------------
+Array method 
+push - add element at last
+unshift, add element at first in array
+shift r- remove the element from first
+pop - remove the element from last
+splice if you want to get the  specific element  
+slice - extract the element and put at new array
+indexOf = it will find the index of element
+lastIndexOf  
+include() method check element peresent or not return true or false
+forEach() ittrate the value from array one by one  it will take function like arrow function
+
+Array 
+
+how to craete array var name= [] empty array
+
+how to add element insidr the arrya name.push("rushikesh"); by using the push method
+
+
+
+//how to add new element inside the array at last position
+ names.push("sunny");
+console.log(names);// output [ 'rushikesh', 'abhishek', 'sachin', 'sunny' ]
+
+
+
+// how to add new element initial position 
+    names.unshift("kishan",100	);
+    console.log(names);   // output [ 'kishan', 100, 'rushikesh', 'abhishek', 'sachin', 'sunny' ]
+
+
+// second example of add element initial position
+    var user = [true,100,{name:"rushikesh",email:"sachin@gmail.com"}];
+        console.log(user);//before adding element
+        console.log(user[2].name) // access the object property from array
+      user.unshift("sachin");
+        console.log(user);            // output  [ 'sachin',true,100,{ name: 'rushikesh', email: 'sachin@gmail.com' } ]
+  
+  
+* how to remove element from starting and ending position 
+   if you want to remove element frome first position then use arrayName.shift() method
+   if you want to rwemove element frome the last element use arrayName.pop() method
+  
+* remove the element from specific position then we will use splice method splice(firstindex,numbereofelement)
+
+
+* slice method
+  if we want to extract the part of the array 
+   slice(startIndex,LastIndex); NOTE : last index will not be include.
+   slice method return new array 
+   slice will not modify the original array
+
+* indexOf method it is use for the check the index of element
+
+* includes method in Array to check element is available or note inside the array if peresent return true or if note peresent it will return false 
+
+* forEach method use for to ittrate the data one by one from the array; 
+  for each function will not return anything  
+
+
+----------------------------------------------------------------lecture 6-----------------------------------------------------------------
+  DOM 
+  
+
+how to access any html element in the java script.
+   id,
+   class,
+   tag,
+   name,
+
+if i want to create the element
+document.createElement("table")
+
+
+
+
+
+
