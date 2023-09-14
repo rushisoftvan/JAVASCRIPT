@@ -182,6 +182,12 @@ if i want to create the element
 document.createElement("table")
 
 
+innerText 
+innerHtml -> we have to ele
+outText
+outerHTML
+
+
 
 
 

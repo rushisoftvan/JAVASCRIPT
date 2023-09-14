@@ -1,0 +1,15 @@
+*************************************************************ES 6 ****************************************************************************
+scope of let, const ,this,objects,Arrow function,Destructing, Spread,classes,Modules
+
+
+ scope let,const,var
+ Arrow function
+ filter,map,foreach
+ Template literals
+ Destructing
+ Default parameter
+ spread
+ Rest
+ 
+
+inheritance
