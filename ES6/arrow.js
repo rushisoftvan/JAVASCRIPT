@@ -29,5 +29,16 @@ var numbers = [1, 2, 3, 4, 5, 6, 7];
 numbers.forEach(number => console.log(number));
 
 
+ 
+//  find method 
 
-// 
+  const  users  = [{firstName : "ruhsikesh"},{firstName:"sachin"}];
+   const freshResult = users.find(user => user.firstName==="ruhsikesh");
+   console.log(freshResult['firstName']);
+
+
+// Set  
+
+ 
+
+ 

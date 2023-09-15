@@ -8,8 +8,10 @@ scope of let, const ,this,objects,Arrow function,Destructing, Spread,classes,Mod
  Template literals
  Destructing
  Default parameter
+ for loop for object and array
  spread
  Rest
+ Promises
  
 
 inheritance
