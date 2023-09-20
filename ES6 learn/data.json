@@ -1,0 +1,14 @@
+ 
+
+ {
+    "name":"sachin",
+    "age":67,
+    "is_student": false,
+    "address":{
+                 "city":"ahmedabad",
+                 "state":"gujrat",
+                 "pincode":382415
+               },
+    "p_lang": ["java","C++","java","python"]
+
+ }
