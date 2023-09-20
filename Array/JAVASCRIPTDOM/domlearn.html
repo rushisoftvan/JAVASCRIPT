@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+ 
+ <div>
+   <!--form started-->
+   <div id="fromdiv" class="text-center border" >
+    <form action=""  class="form-conatiner" id="Submit_Handle">
+        <h3>Register</h3>
+        <div class="from-group">
+           <label>First Name</label><br>
+           <input type="text" placeholder="Enter User First Name" id="firstname">
+           <h5 id="firstnamevalidationmsg" style="display:none;">please enter only alphabets</h5>
+        </div>
+        <div class="from-group">
+            <label>Last Name</label><br>
+            <input type="text" placeholder="Enter User First Name" id="lastname">
+            <h5 id="lastnamevalidationmsg" style="display:none;">please enter only alphabets</h5>
+         </div>
+         <div class="from-group">
+            <label>Email</label><br>
+            <input type="text" placeholder="Enter Email" id="email">
+            <h5 id="emailvalidationmsg" style="display:none;">please enter valid email</h5>
+         </div>
+         <div class="from-group">
+            <label>Gender</label><br>
+            <input type="radio" placeholder="Enter Email" id="male" name="ma" value="Male">Male
+            <input type="radio" placeholder="Enter Email" id="female" name="ma" value="Female">Female
+         </div><br>
+         <!--form ended-->
+         <button onclick="register(event)">Register</button>
+     </form>
+     <!-- <div id="tableshow">
+          
+     </div> -->
+   </div> 
+    
+ </div>
+  
+</body>
+<script type="text/javascript" src="./domlearn.js"></script>
+</html>
